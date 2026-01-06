@@ -409,8 +409,8 @@ export class SignhostService {
             Location: {
               Search: signatureLocation.searchText,
             },
-            Width: signatureLocation.width ?? 520,
-            Height: signatureLocation.height ?? 240,
+            Width: signatureLocation.width ?? 600,
+            Height: signatureLocation.height ?? 300,
           },
         },
       };

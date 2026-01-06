@@ -184,8 +184,8 @@ async function main(): Promise<void> {
       "Service Agreement",
       {
         searchText: "{{ClientSignature}}",
-        width: 300,
-        height: 140,
+        width: 600,
+        height: 300,
       }
     );
     console.log("   ✓ Signature field configured");
