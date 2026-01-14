@@ -230,6 +230,10 @@ await signhost.uploadFileMetadata(transactionId, fileId, signerId, "Contract", {
 });
 ```
 
+## PDF guidelines
+
+When the PDF is not correctly generated the signing process may fail, or signed documents may stay in 'processing' phase. See this document for [PDF requirements](https://intercom.help/signhost/nl/articles/3838091-pdf-document-vereisten)
+
 ## Building for Production
 
 ```bash
@@ -244,4 +248,5 @@ npm start
 
 - [Signhost API Documentation](https://evidos.github.io/)
 - [Signhost Portal](https://portal.signhost.com)
+- [PDF requirements](https://intercom.help/signhost/nl/articles/3838091-pdf-document-vereisten)
 - [PDFKit Documentation](http://pdfkit.org/)
